@@ -127,7 +127,9 @@ O sistema gera relatórios completos incluindo:
 ## Complexidade Computacional
 
 **1. Merge Sort:** O(n log n) - eficiente para ordenação de grandes conjuntos
+
 **2. Problema da Mochila:** O(n × capacidade) - otimizado com memoização
+
 **3. Solução Geral:** Combina as duas abordagens para balance entre performance e precisão
 
 ## Vantagens da Abordagem
