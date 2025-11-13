@@ -76,10 +76,32 @@ O sistema trabalha com 20 habilidades de tecnologia e negócios, incluindo:
 
 # Como Executar
 
-## Pré-requisitos (Instalação da bibleoteca Pandas Numpy)
+1. **Pré-requisitos (Instalação da bibleoteca Pandas Numpy)**
+   ```bash
+   pip install pandas numpy
 
-## Execução do Código
-
+3. **Execução do Código**
+   ```python
+   if __name__ == "__main__":
+    CAPACIDADE_MAXIMA = 500
+    
+    print("INICIANDO OTIMIZAÇÃO DE REQUALIFICAÇÃO PROFISSIONAL")
+    print(f"Total de habilidades disponíveis: {len(df_habilidades)}")
+    print(f"Capacidade máxima: {CAPACIDADE_MAXIMA} horas\n")
+    
+    df_ordenado = merge_sort_recursivo(df_habilidades, 'tempo')
+    print("Habilidades ordenadas por tempo necessário:")
+    print(df_ordenado[['nome', 'tempo', 'valor']].to_string(index=False))
+    
+    inicio = datetime.now()
+    resultado = otimizar_requalificacao(df_habilidades, CAPACIDADE_MAXIMA)
+    tempo_execucao = (datetime.now() - inicio).total_seconds()
+    
+    gerar_relatorio_detalhado(resultado, df_habilidades, CAPACIDADE_MAXIMA)
+    analisar_eficiencia(df_habilidades)
+    
+    print(f"\nTempo de execução: {tempo_execucao:.4f} segundos")
+   
 # Resultados e Relatórios
 
 ## Relatório de Otimização
