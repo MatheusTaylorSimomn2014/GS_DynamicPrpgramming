@@ -53,24 +53,28 @@ O sistema trabalha com 20 habilidades de tecnologia e negócios, incluindo:
 # Funcionalidades Principais
 
 ## 1. Algoritmo de Ordenação (Merge Sort Recursivo)
-**Propósito:** Ordenar habilidades por critério específico usando divisão e conquista
-**Recursão:** Divide a lista pela metade até casos base de 1 elemento
-**Complexidade:** O(n log n) garantido
+
+- **Propósito:** Ordenar habilidades por critério específico usando divisão e conquista
+- **Recursão:** Divide a lista pela metade até casos base de 1 elemento
+- **Complexidade:** O(n log n) garantido
 
 ## 2. Problema da Mochila com Recursão e Memoização
-**Propósito:** Resolver problema de otimização com restrições
-**Recursão:** Para cada habilidade, decide incluir ou não na solução
-**Memoização:** Armazena resultados de subproblemas para evitar recálculo
-**Complexidade:** O(n × capacidade)
+
+- **Propósito:** Resolver problema de otimização com restrições
+- **Recursão:** Para cada habilidade, decide incluir ou não na solução
+- **Memoização:** Armazena resultados de subproblemas para evitar recálculo
+- **Complexidade:** O(n × capacidade)
 
 ## 3. Função de Otimização Principal
-**Propósito:** Coordenar todo o processo de otimização
-**Integração:** Combina ordenação com algoritmo da mochila
-**Saída:** Retorna estrutura completa com solução ótima
+
+- **Propósito:** Coordenar todo o processo de otimização
+- **Integração:** Combina ordenação com algoritmo da mochila
+- **Saída:** Retorna estrutura completa com solução ótima
 
 ## 4. Sistema de Relatórios Detalhados
-**Propósito:** Apresentar resultados de forma clara e organizada
-**Análise:** Mostra métricas de eficiência e utilização de recursos
+
+- **Propósito:** Apresentar resultados de forma clara e organizada
+- **Análise:** Mostra métricas de eficiência e utilização de recursos
 
 # Como Executar
 
@@ -122,11 +126,9 @@ O sistema gera relatórios completos incluindo:
 
 ## Complexidade Computacional
 
-## **1. Merge Sort:** O(n log n) - eficiente para ordenação de grandes conjuntos
-
-## **2. Problema da Mochila:** O(n × capacidade) - otimizado com memoização
-
-## **3. Solução Geral:** Combina as duas abordagens para balance entre performance e precisão
+**1. Merge Sort:** O(n log n) - eficiente para ordenação de grandes conjuntos
+**2. Problema da Mochila:** O(n × capacidade) - otimizado com memoização
+**3. Solução Geral:** Combina as duas abordagens para balance entre performance e precisão
 
 ## Vantagens da Abordagem
 - Solução Ótima Garantida para o problema da mochila
